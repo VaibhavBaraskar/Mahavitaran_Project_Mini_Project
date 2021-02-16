@@ -17,5 +17,6 @@
 		<property name="hibernate.show_sql">true</property>
 		
 		<mapping class="miniproject.edac.dao.MahavitaranUser"/>
+		<mapping class="miniproject.edac.dao.mahavitaranadmin"/>
 	</session-factory>	
 </hibernate-configuration>	
