@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import miniproject.edac.dao.LoginDao;
 import miniproject.edac.dao.MahavitaranUser;
@@ -30,11 +31,18 @@ public class LoginAction extends HttpServlet {
 			MahavitaranUser user = new MahavitaranUser(username, password, null, null,null,null,null);
 			boolean check =  dao.authenticateUser(user);
 			
-			if(check == true) {
-				response.sendRedirect("/Mahavitaran/register.jsp?q=1");
-			} else {
-				throw new Exception("Auth Fails");
+			if(check == true)
+			{
+				HttpSession session = request.getSession();
+				session.setAttribute("username", username);
+				
+				response.sendRedirect("/Mahavitaran/UserPayment.jsp");
 			}
+			else
+			{
+				response.sendRedirect("/Mahavitaran/login.jsp?q=0");
+			}
+
 			
 		} catch(Exception e) {
 			e.printStackTrace();
