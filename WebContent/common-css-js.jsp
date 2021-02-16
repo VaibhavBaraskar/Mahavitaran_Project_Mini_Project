@@ -33,7 +33,7 @@
 						MSEDCL</a></li>
 				<li class="nav-item"><a class="nav-link" href="vision.jsp">Vision
 						& Mission</a></li>
-				<li class="nav-item"><a class="nav-link " href="#">Administrator
+				<li class="nav-item"><a class="nav-link " href="AdminLogin.jsp">Administrator
 						Login</a></li>
 				<li class="nav-item"><a class="nav-link " href="login.jsp">Customer
 						Login</a></li>

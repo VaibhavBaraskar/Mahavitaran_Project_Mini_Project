@@ -30,7 +30,7 @@
 				</c:if>
 				
 				<div class="bg-light text-dark py-3 rounded d-flex justify-content-center" style="font-family:cursive; font-size:1.5rem; font-weight:bold">
-					Application Registratration
+					Customer Registratration Form
 				</div>
 			
 				<div class="mt-1">

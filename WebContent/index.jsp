@@ -5,6 +5,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ include file="common-css-js.jsp"%>
 <body>
+
+
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel" style="height: 5%">
 		<ol class="carousel-indicators">
@@ -228,7 +230,7 @@ https://www.phonepe.com/webstatic/static/8902b625e4c89027cf64413c3e5c1c5b/85ee5/
 				<div class="content pt-2">
 					<footer >
 						<div class="row col-12" >
-							<div class="col-3">
+							<div class="col-4">
 								<h3 style="color: #F7E8E6" >General</h3>
 								<ul>
 									<li><a href="/about">About Us</a></li>
@@ -238,7 +240,7 @@ https://www.phonepe.com/webstatic/static/8902b625e4c89027cf64413c3e5c1c5b/85ee5/
 								</ul>
 								
 							</div>
-							<div class="col-3">
+							<div class="col-4">
 								<h3 style="color: #F7E8E6">Connect</h3>
 								<ul>
 									<li><a href="https://careers.phonepe.com/">Careers</a></li>
@@ -253,40 +255,28 @@ https://www.phonepe.com/webstatic/static/8902b625e4c89027cf64413c3e5c1c5b/85ee5/
 
 
 
-							<div class="col-3">
-								<h3 style="color: #F7E8E6">Legal</h3>
-								<ul>
-									<li><a href="/terms-conditions/">Terms &amp;
-											Conditions</a></li>
-									<li><a href="/privacy-policy/">Policy</a></li>
-									<li><a href="/how-to-pay/pay-by-phonepe/web/">How to
-											Pay</a></li>
-									<li><a href="/ewaste-policy/">E-Waste Policy</a></li>
-								</ul>
-							</div>
-
-							<div class="col-3">
+							<div class="col-4">
 							
-								<div style="padding-top: 15%">
+								<div style="padding-top: 10%">
 									<ul
 										class="ft-main__item__icon-container ft-main__item__media-icon-container">
 										<li><a
 											href=""
 											target="_blank"><img
 												src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNLjM3MS4wNmgzMy4zOTV2MzMuMDU3SC4zN3oiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48bWFzayBpZD0iYiIgZmlsbD0iI2ZmZiI+PHVzZSB4bGluazpocmVmPSIjYSIvPjwvbWFzaz48cGF0aCBkPSJNOC43MTcgMTAuOTI3YzEuNDIzIDAgMi42MDgtMS4xNzUgMi41OTEtMi41NjgtLjAxNi0xLjM5Ni0xLjIyOC0yLjU2NS0yLjYzNS0yLjU0LTEuMzg3LjAyMy0yLjUzNyAxLjE3NS0yLjU0MyAyLjU0OC0uMDA2IDEuNDIgMS4xNDcgMi41NiAyLjU4NyAyLjU2ek02LjUyMyAyNi45N2g0LjM0NFYxMi45MDJINi41MjNWMjYuOTd6bTExLjY0LjAwMnYtLjgyM2MwLTIuMDgtLjAxLTQuMTYuMDA5LTYuMjQxYTcuODA1IDcuODA1IDAgMDEuMTcyLTEuNmMuMTk2LS44ODguNjczLTEuNTY3IDEuNjMtMS44MSAxLjgwNi0uNDU2IDMuMDQ4LjQyMyAzLjA5NCAyLjI5NS4wNiAyLjQ0Ni4wMzYgNC44OTUuMDQ4IDcuMzQydi44MDhoNC40MjVjMC0zLjA2OC4wMDgtNi4wNzQtLjAwOC05LjA4LS4wMDMtLjQ4Ni0uMDg2LS45NzYtLjE3OC0xLjQ1NS0uNDctMi40NTQtMS45NzItMy43MjktNC40ODgtMy44ODYtMS45Ni0uMTIzLTMuNTkuNDU2LTQuODkxIDIuMjY4di0xLjg4N2gtNC4yMnYxNC4wN2g0LjQwOHpNMTUuNzg3LjA2aDIuNTI2Yy4xNC4wMzguMjc2LjA5OC40MTcuMTEyIDYuNjk2LjY1IDEyLjM3NiA1LjIzOCAxNC4yODggMTEuNjA1LjM0OCAxLjE1OC41MDQgMi4zNzMuNzQ5IDMuNTYxdjIuNDk4Yy0uMDU2LjM1OC0uMTE1LjcxNS0uMTY3IDEuMDczLTEuMzAzIDkuMDIxLTkuODIyIDE1LjM0NS0xOC45MTEgMTQuMDM3QzUuODM5IDMxLjY3My0uMzY4IDIzLjg3Mi40NDIgMTUuMDQzIDEuMDU4IDguMzM3IDUuNzA4IDIuNjk1IDEyLjI1Mi43ODZjMS4xNS0uMzM1IDIuMzU1LS40ODggMy41MzQtLjcyNnoiIGZpbGw9IiMwMDAiIG1hc2s9InVybCgjYikiLz48L2c+PC9zdmc+"
-												alt="LinkedIn Logo"></a></li>
+												alt="LinkedIn Logo">&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn</a></li>
 										<li><a href=""
 											target="_blank"><img
 												src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUiIGhlaWdodD0iMjkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMjUuMDhjMy44MjEuMzEzIDcuMjctLjYwNCAxMC4zOTctMi44OC0zLjI2NC0uMjctNS40NDgtMS44NDgtNi42NTctNC44MTQgMS4wOTkuMTQgMi4xMTguMTUyIDMuMTU0LS4xMy00LjA3LS45NTktNS43NDctNC40NTUtNS42MDgtNi44MzkuOTc4LjQ1NyAxLjk3OC43ODYgMy4xNy44MTRDMi42NSA5Ljk1NyAxLjYxMyA4LjMyOCAxLjM2NyA2LjI3NmMtLjE3OC0xLjQ4NS4xMTUtMi44OTguOTE2LTQuMjMxIDMuODU4IDQuMzg5IDguNzM0IDYuODAyIDE0LjY5NiA3LjIwOC0uMDQ0LS40MDgtLjEwNy0uNzgxLS4xMjMtMS4xNTctLjExOS0yLjc5MiAxLjA3LTQuOTI3IDMuNTEzLTYuMzg5IDIuNjA3LTEuNTYgNi4yMy0xLjE2OSA4LjQzOC44OTMuMjc4LjI2LjUxLjMxNi44ODYuMjI3YTE1LjQxIDE1LjQxIDAgMDAzLjkzNC0xLjUyMWMuMDAyLjg1LTEuMjEyIDIuNDA4LTIuODQ2IDMuNzUuNDE4LS4wNzMuODQtLjEzMyAxLjI1My0uMjI1LjQ0LS4wOTguODc4LS4yMTQgMS4zMDktLjM0Ny40MTctLjEyOC44MjMtLjI4NyAxLjIzNC0uNDMybC4wNy4wN2MtLjU3LjY0NC0xLjExIDEuMzE1LTEuNzE2IDEuOTI1LS40ODUuNDg4LTEuMDQxLjkxLTEuNTgyIDEuMzQ0YS41MjIuNTIyIDAgMDAtLjIyMy40NzJjLjA5IDQuNzkxLTEuMzkgOS4wOTQtNC40MDEgMTIuODg0LTMuMDUgMy44NC03LjA3MiA2LjE5LTExLjk5NiA3LjA1Ni0zLjczNS42NTgtNy40MDIuMzg1LTEwLjk3My0uODg5QTE3Ljg4MyAxNy44ODMgMCAwMTAgMjUuMDgxIiBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4="
-												alt="Twitter Logo"></a></li>
+												alt="Twitter Logo">&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></li>
 										<li><a href=""
 											target="_blank"><img
 												src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIxLjcgMTcuMDQybC40LTMuNTkzaC0zLjQ1NWMwLS44MjgtLjAzMy0xLjYwNC4wMTMtMi4zNzYuMDI4LS40NzEuMzc3LS43MS44OTgtLjcyLjQ4LS4wMTEuOTYtLjAwNCAxLjQ0LS4wMDRoMS4wMjFWNi44Yy0xLjU2NS4wNTEtMy4xMTMuMDI2LTQuNjQyLjE3Ny0xLjE1OS4xMTUtMi4wNy43NTItMi42NjkgMS43MS0uNDgxLjc3LS42NTcgMS42MTItLjY2NiAyLjQ5LS4wMDcuNzQtLjAwMSAxLjQ4LS4wMDEgMi4yNjhoLTIuMTR2My42MDdoMi4xNDRWMjcuMmg0LjU3OFYxNy4wNDJIMjEuN3pNMTYuOTgyIDBDMjYuMzQ3LS4wMzIgMzMuOTQyIDcuNTQgMzQgMTYuOTY1Yy4wNTYgOS4zNjgtNy41NjUgMTcuMDEzLTE2Ljk4NCAxNy4wMzVDNy42MjMgMzQuMDIyIDAgMjYuNDA2IDAgMTcgMCA3LjYwOCA3LjU3LjAzMiAxNi45ODIgMHoiIGZpbGw9IiMwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg=="
-												alt="Fb Logo"></a></li>
+												alt="Fb Logo">&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></li>
 									</ul>
 								</div>
 							</div>
-							<div style="padding-left: 50%">© 2021, All rights reserved</div>
+							<div style="padding-left: 50%; color: #F7E8E6">© 2021, All rights reserved</div>
 					</footer>
 					
 			</div>
