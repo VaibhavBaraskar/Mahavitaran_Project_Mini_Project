@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import miniproject.edac.dao.AdminDao;
 import miniproject.edac.dao.LoginDao;
@@ -33,7 +34,9 @@ public class AdminiStratorLogin extends HttpServlet {
 		
 			
 			if(checkAdmin == true) {
-				response.sendRedirect("/Mahavitaran/index.jsp?q=1");
+				HttpSession session = request.getSession();
+				session.setAttribute("username", username);
+				response.sendRedirect("/Mahavitaran/AdminWork.jsp");
 			} else {
 				throw new Exception("Auth Fails");
 			}

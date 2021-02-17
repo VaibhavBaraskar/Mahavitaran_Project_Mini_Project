@@ -26,9 +26,9 @@ public class MahavitaranUser {
 	private String mobile;
 	@Column(name = "CUSTOMER_ID" , unique = true)
 	private String customerID;
-	@Column(name = "CUSTOMER_NAME" , unique = true)
+	@Column(name = "CUSTOMER_NAME")
 	private String customerName;
-	@Column(name = "CITY" , unique = true)
+	@Column(name = "CITY" )
 	private String cityName;
 	
 	public int getId() {

@@ -18,5 +18,6 @@
 		
 		<mapping class="miniproject.edac.dao.MahavitaranUser"/>
 		<mapping class="miniproject.edac.dao.mahavitaranadmin"/>
+		<mapping class="miniproject.edac.dao.CustomerUsedData"/>
 	</session-factory>	
 </hibernate-configuration>	
