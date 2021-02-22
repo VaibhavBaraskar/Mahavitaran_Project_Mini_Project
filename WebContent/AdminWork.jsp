@@ -58,7 +58,7 @@ if (session.getAttribute("username") == null) {
 			   <br>
 			   <div class="form-group">
 			   <c:if test="${customerUsedData1.id==null}">
-			   <input type="submit" value="Add Customer DAta" class="btn btn-success form-control" style="width:40%"/>
+			   <input type="submit" value="Add Customer Data" class="btn btn-success form-control" style="width:40%"/>
 			   </c:if>
 			   <c:if test="${customerUsedData1.id!=null}">
 			   <input  value="Update" type="submit" formaction="update-customerUsedData" class="btn btn-info form-control" style="width:40%;float:right"/>
@@ -66,6 +66,11 @@ if (session.getAttribute("username") == null) {
 			  <br/>
 			   </div>
 			</form>
+			
+			<form action="readall-customerUsedData">
+			 <input type="submit" value="Read Existing Customer Data" class="btn btn-sec form-control" style="width:40%"/>
+			</form>
+			
 		</div>
 		<div  class="col-md-12 mt-2"> 
 		<h2 style="color:green">User Info</h2>
